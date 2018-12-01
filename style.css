@@ -55,26 +55,24 @@ body {
     text-align: center;
     flex: 1 1 auto;
 }
-
+/* Flex Item */
 .main-content {
     order: 2;
-   
     flex: 1 1 auto;
     text-align: justify;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-
-
+/* Flex Item */
 .sidebar-left {
     order: 1;
-    
     flex: 1 0 25vw;
 }
 
+/* Flex Item */
 .sidebar-right {
     order: 3;
-  
     flex: 1 0 25vw;
 }
 
