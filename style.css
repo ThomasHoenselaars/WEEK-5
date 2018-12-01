@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     list-style: none;
-    border: 1px solid red;
+   
     margin: 0px;
     padding: 5px;
 }
@@ -60,6 +60,8 @@ body {
     order: 2;
    
     flex: 1 1 auto;
+    text-align: justify;
+    margin: 20px;
 }
 
 
@@ -89,6 +91,7 @@ img {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 /* Flex Item EN Flex Container */
@@ -98,4 +101,7 @@ a {
     background: #804E49;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
 }
