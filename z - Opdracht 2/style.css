@@ -16,7 +16,7 @@ body {
 /* Flex Item EN Flex Container */
 .header {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     background: #698F3F;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +26,7 @@ body {
 }
 
 .site-name {
+    
     color: white;
     font-size: 24px;
     font-weight: bold;
@@ -116,3 +117,17 @@ a:hover {
 }
 
 
+@media screen and (max-width: 800px) {
+
+    .sidebar {
+        background: red;
+    }
+
+
+
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
