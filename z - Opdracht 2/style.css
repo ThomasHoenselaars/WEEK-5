@@ -31,7 +31,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-left: 10px;
-    padding-top: 10px;
+    
     
 }
 
@@ -128,6 +128,10 @@ a:hover {
 
     .header {
         flex-direction: column;
+    }
+
+    .site-name {
+        padding-top: 10px;
     }
 
     .mid-section {

@@ -107,3 +107,33 @@ a:hover {
     font-family: sans-serif;
     color: white;
 }
+
+@media screen and (max-width: 800px) {
+
+    /* .sidebar {
+        background: red;
+    } */
+
+
+
+    .header {
+        flex-direction: column;
+    }
+
+    .site-name {
+        padding-top: 10px;
+    }
+
+    .mid-section {
+        flex-flow: column nowrap;
+    }
+
+    .main-upper {
+        flex-flow: column wrap;
+    }
+
+    img {
+        max-width: 40%;
+    }
+
+}
