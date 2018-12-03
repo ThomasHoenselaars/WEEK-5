@@ -31,6 +31,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-left: 10px;
+    padding-top: 10px;
     
 }
 
@@ -119,15 +120,26 @@ a:hover {
 
 @media screen and (max-width: 800px) {
 
-    .sidebar {
+    /* .sidebar {
         background: red;
-    }
+    } */
 
 
 
     .header {
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mid-section {
+        flex-flow: column nowrap;
+    }
+
+    .main-upper {
+        flex-flow: column wrap;
+    }
+
+    img {
+        max-width: 40%;
     }
 
 }
